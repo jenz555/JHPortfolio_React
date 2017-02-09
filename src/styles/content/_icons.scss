@@ -1,0 +1,33 @@
+.icon {
+    width: 1.563rem;
+    height: 1.563rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    background-position: center center;
+    background-size: contain;
+    vertical-align: text-bottom;
+}
+
+.icon--center {
+    text-align: center;
+}
+
+.icon--middleAligned,
+.icon--middle {
+    vertical-align: middle;
+}
+
+.icon--med {
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon--lg {
+    width: 2.813rem;
+    height: 2.813rem;
+}
+
+.icon--xlg {
+    width: 4rem;
+    height: 4rem;
+}

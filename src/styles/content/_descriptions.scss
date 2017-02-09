@@ -1,0 +1,19 @@
+.desc__wrapper--outer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    background-color: yellow; 
+    z-index: 1000;
+
+}
+
+.desc__wrapper--inner {
+    position: fixed;
+    background: blue;
+    margin: 0 auto;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+

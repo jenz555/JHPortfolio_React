@@ -4,12 +4,12 @@ logs
 npm-debug.log*
 
 #Exclude any PSD/AI/JPG/TIFF/PDF source
-#*.psd
-#*.ai
-#*.jpg
-#*.jpeg
-#*.tiff
-#*.pdf
+*.psd
+*.ai
+*.jpg
+*.jpeg
+*.tiff
+*.pdf
 
 # Runtime data
 pids

@@ -1,0 +1,45 @@
+
+
+@import 'tools/variables';
+@import 'tools/mixins';
+@import 'base/elements';
+@import 'tools/flexbox';
+@import 'tools/helpers';
+
+@import 'base/fonts';
+
+
+@import 'layout/grid';
+@import 'layout/wrapper';
+@import 'layout/vr';
+@import 'layout/flexbox';
+
+@import 'lists/vList';
+
+
+@import 'content/slick.css';
+@import 'content/txt';
+@import 'content/icons';
+@import 'content/descriptions';
+@import 'content/hdg';
+@import 'content/slick-theme.css';
+@import 'content/img';
+@import '../components/bloomDetails/_bloomDetails';
+
+@import '../components/home/home.css';
+@import '../components/bloom/bloom.css';
+@import '../components/carousel/carousel.css';
+
+
+.wrapper--body {
+    background-color: $white;
+   
+}
+
+
+
+
+
+body {
+    margin: 0rem;
+}

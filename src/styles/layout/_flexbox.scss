@@ -1,0 +1,67 @@
+.flexbox__container {
+    @include display-flex;
+    @include align-items(center);
+    @include justify-content(center);
+
+}
+
+.flexbox__align-top {
+    @include align-items(flex-start);
+
+}
+
+.flexbox__item--1 {
+    @include flex-shrink(1);
+}
+
+
+.flexbox__item--2 {
+    @include flex-grow(2);
+}
+
+.flexbox__item--3 {
+    @include flex-grow(3);
+}
+
+.flexbox__container--left {
+    @include display-flex;
+    @include align-items(left);
+    @include justify-content(flex-start);
+
+}
+
+.flexbox__header  { 
+    padding: 2rem 3rem;
+    position: relative;
+}
+
+.flexbox__header--design { 
+     
+  
+}
+
+.flexbox__header--develop { 
+      
+  
+}
+
+.flexbox__header--blue  { 
+    background-color: #00BCD4;
+}
+
+.flexbox__container--blue {
+    background-color: #00BCD4;
+}
+
+.flexbox__container--borderBottom {
+    border-bottom: 1px solid $cool-gray-2;
+
+}
+
+.flexbox__item--bib  { 
+    background-color: transparent;
+}
+
+.flexbox__item--provena { 
+    //background-color: #4A148C;
+}
