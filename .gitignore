@@ -66,7 +66,6 @@ jest
 component-library/lib
 
 # Processed CSS
-*.css
 *.map
 
 ## Allow App.CSS
