@@ -9,6 +9,7 @@ import BloomDetails from './components/bloomDetails/BloomDetails'
 import Provena from './components/provena/Provena'
 import Logos from './components/logos/Logos'
 import Carousel from './components/carousel/Carousel'
+import Swipe from './components/swipe/Swipe'
 import WalkInWoods from './components/walkInWoods/WalkInWoods'
 import RoadSmart from './components/roadSmart/RoadSmart'
 import Footer from './components/footer/Footer'
@@ -27,6 +28,7 @@ class App extends React.Component {
           <Route path="/bloomDetails" component={ BloomDetails }>BloomDetails</Route>
         <Route path="/provena" component={ Provena }>Provena</Route>
         <Route path="/logos" component={ Logos }>Logos</Route>
+        <Route path="/swipe" component={ Swipe }>Swipe</Route>
         <Route path="/carousel" component={ Carousel }>Carousel</Route>
         <Route path="/walkInWoods" component={ WalkInWoods }>WalkInWoods</Route>
         <Route path="/roadSmart" component={ RoadSmart }>RoadSmart</Route>

@@ -1,7 +1,5 @@
 import React from 'react'
-var Slider = require('react-slick');
 import {Link} from 'react-router'
-
 import Bloom from '../bloom/Bloom'
 import Provena from '../provena/Provena'
 import Logos from '../logos/Logos'
@@ -9,6 +7,8 @@ import BloomDetails from '../bloomDetails/BloomDetails'
 import WalkInWoods from '../walkInWoods/WalkInWoods'
 import RoadSmart from '../roadSmart/RoadSmart'
 import Footer from '../footer/Footer'
+
+var Slider = require('react-slick');
 
 var Carousel = React.createClass({
   render: function () {

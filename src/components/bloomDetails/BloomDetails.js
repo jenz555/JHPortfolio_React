@@ -2,18 +2,13 @@ import React from 'react'
 import { Link } from 'react-router'
 import Masthead from '../masthead/Masthead'
 import Home from '../home/Home'
+import Swipe from '../swipe/Swipe'
+
 
 
 
 var BloomDetails = React.createClass({
-filterList: function(event){
-    var updatedList = this.state.initialItems;
-    updatedList = updatedList.filter(function(item){
-      return item.toLowerCase().search(
-        event.target.value.toLowerCase()) !== -1;
-    });
-    this.setState({items: updatedList});
-  },
+
   getInitialState: function(){
      return {
        initialItems: ["Client: Morton Arboretum",
@@ -31,8 +26,6 @@ filterList: function(event){
   },
 
   render: function() {
-
-
     return (
       <div>
 
@@ -42,10 +35,13 @@ filterList: function(event){
             <Link to="/">
             BACK
             </Link>
-
-           
+    
       <div className="main">
+           <Swipe></Swipe>
             <div className="main--description main--description--bkg">
+              <div className="arrow__bkg">
+              <div className="arrow"><img src="../images/arrow.svg" /></div>
+        </div>
       <List items={this.state.items}/>
       </div>
             <img src="../images/bib_ver2_cover.png" className="img img--fill"/>
@@ -56,7 +52,6 @@ filterList: function(event){
 
      
       <br/>
-      
    
       <div className="wrapper"> 
             <img src="../images/bib_ver2-1.png" className="img img--fill"/>
@@ -89,7 +84,7 @@ var List = React.createClass({
   render: function(){
     return (
 
-      <ul className="p0 vList vList--piped">
+      <ul className="p0 vList vList--piped m5">
       {
         this.props.items.map(function(item) {
           return <li key={item}>{item}</li>
