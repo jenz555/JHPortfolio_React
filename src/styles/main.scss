@@ -5,9 +5,9 @@
 @import 'base/elements';
 @import 'tools/flexbox';
 @import 'tools/helpers';
+@import 'tools/animate';
 
 @import 'base/fonts';
-
 
 @import 'layout/grid';
 @import 'layout/wrapper';
@@ -19,17 +19,17 @@
 
 @import 'content/slick.css';
 @import 'content/slick-theme.css';
-@import 'content/_swipe.css';
 @import 'content/txt';
 @import 'content/icons';
 @import 'content/descriptions';
 @import 'content/hdg';
 @import 'content/img';
-@import '../components/bloomDetails/_bloomDetails';
 
 @import '../components/home/home.css';
 @import '../components/bloom/bloom.css';
 @import '../components/carousel/carousel.css';
+
+@import '../components/reveal/_reveal.css';
 
 
 .wrapper--body {

@@ -180,3 +180,9 @@
   -webkit-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
 
 }
+
+@mixin blendy($img, $color, $blend) {
+  background-image: url('../images/#{$img}');
+  background-color: $color;
+  background-blend-mode: $blend;
+}
